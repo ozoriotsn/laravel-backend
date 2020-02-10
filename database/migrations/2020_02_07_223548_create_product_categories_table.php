@@ -14,7 +14,6 @@ class CreateProductCategoriesTable extends Migration
     public function up()
     {
         Schema::create('product_categories', function (Blueprint $table) {
-            $table->engine = 'InnoDB';
             $table->bigIncrements('id');
             $table->bigInteger('product_id')->unsigned();
             $table->foreign('product_id')
