@@ -6,6 +6,7 @@
 
     // Instalação do sistema
     Clonar esse repositório com git clone
+    Ter a versão do PHP >= 7.2.0
     Faça uma cópia de .env.example para .env então edite os dados de acesso da sua base de dados
     Execute o comando composer install
     Execute o comando php artisan key:generate
