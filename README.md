@@ -9,8 +9,9 @@
     Clonar esse repositório com git clone
     Faça uma cópia de .env.example para .env então edite os dados de acesso da sua base de dados
     Execute o comando composer install
-    Execute o comando php artisan passport:client --personal (name laravel)
+    Execute o comando php artisan key:generate
     Execute o comando php artisan migrate --seed 
+    Execute o comando php artisan passport:install
     Execute o comando php artisan serve
      
     // Testar login via api 
