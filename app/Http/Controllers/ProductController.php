@@ -25,7 +25,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return response()->json(Product::with('category')->distinct()->paginate(5), 200);
+        return response()->json(Product::with('category')->distinct()->paginate(10), 200);
     }
 
     /**

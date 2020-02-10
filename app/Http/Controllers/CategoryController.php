@@ -23,7 +23,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return response()->json(Category::with('product')->distinct()->paginate(5), 200);
+        return response()->json(Category::with('product')->distinct()->paginate(10), 200);
     }
 
     /**

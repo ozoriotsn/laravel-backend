@@ -1,9 +1,8 @@
-<p align="center"><img src="https://jointecnologia.com.br/wp-content/themes/theme-bones-master/library/images/logo.png" width="200"></p>
 
 
 
-## Join Tecnologia Test
-### Install Laravel 6.2
+## Teste de Desenvolvimento PHP/Laravel
+### Install 
 
     // Instalação do sistema
     Clonar esse repositório com git clone
