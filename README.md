@@ -19,7 +19,8 @@
     - ozorio.silva.neto@gmail.com e senha user@123 ou
     - diogo.zarpelon@jointecnologia.com.br e senha user@123
     
-    // Endpoint
-    API: http://127.0.0.1:8000/api/
+    // API
+    API URL: http://127.0.0.1:8000/api/
+    API DOC https://documenter.getpostman.com/view/5699915/SWTK4ENC?version=latest
     
     
